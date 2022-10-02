@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Rock+Salt&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -21,7 +23,7 @@
 
 body {
     background-color: #F6F0ED;
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: 'Tahoma', 'Arial', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -52,7 +54,7 @@ nav a:hover {
 .home-title {
     background-color: none;
     color: none;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Rock Salt', 'Roboto', sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -89,7 +91,7 @@ main section img {
 .card-img {
     border: 10px solid #D9C2A3;
 }
-.rivers-card, .camping-card, .rapids-card {
+.river-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
 .button-box {
