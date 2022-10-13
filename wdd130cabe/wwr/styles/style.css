@@ -219,7 +219,7 @@ footer .social img {
     margin-left: auto;
     margin-right: auto;
 }
-.salmon {
+.centered-box {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -249,21 +249,6 @@ footer .social img {
 .bottom-right-box {
     grid-column: 3 / 4;
     grid-row: 2 / 2;
-}
-.gray {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align: center;
-}
-#grand {
-
-}
-#canyon {
-
-}
-#canyon-class {
-
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
