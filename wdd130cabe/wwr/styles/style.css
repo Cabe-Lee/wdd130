@@ -40,6 +40,7 @@ header {
     background-color:rgba(20,30,13, .7);
     display: grid;
     grid-template-columns: 150px auto;
+    font-size: 28px;
 }
 h2 {
     margin: 0;
@@ -198,6 +199,71 @@ footer .social img {
 .book:hover, .join:hover {
     background-color: #28536B;
     color: #F6F0ED;
+}
+
+
+
+.river-grid {
+    position: relative;
+    text-align: center;
+    color: #F6F0ED;
+}
+.top-center {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.river-grid, img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.salmon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+.cord {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-auto-rows: minmax(90px, auto);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+ 
+}
+.top-left-box {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.top-right-box {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+.bottom-left-box {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+.bottom-right-box {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
+.gray {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+#grand {
+
+}
+#canyon {
+
+}
+#canyon-class {
+
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
