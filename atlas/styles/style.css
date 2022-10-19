@@ -1,0 +1,15 @@
+header {
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: ;
+    padding: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+background {
+    
+}
