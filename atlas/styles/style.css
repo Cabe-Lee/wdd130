@@ -1,15 +1,138 @@
+/*Header*/
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: #28536b;
     display: grid;
-    grid-template-columns: 400px auto;
-    grid-template-rows: ;
-    padding: 50px;
-    font-size: 28px;
+    grid-template-columns: 10px auto;
+    font-size: 30px;
     text-align: center;
+    width: 100%;
+}
+header a {
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 5%;
+    
+}
+/*color palette
+    28536b = blue
+    c2948a = light red
+    7ea8be = light blue
+    f6f0ed = warm white
+*/
+#atlas-logo {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-left: 10px
+}
+
+nav {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+}
+nav a {
+    color: #c2948a;
+
+}
+a:hover {
+    color: #f6f0ed;
+    background-color: #7ea8be;
+}
+body {
+    background-color: #f6f0ed;
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 100%;
+    
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
+    color: #f6f0ed;
 }
-background {
-    
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #28536b
 }
+p {
+    font-family: Arial, tahoma, sans-serif;
+    color: #28536b;
+    font-size: 20px;
+}
+
+/*Page Grid*/
+.full-img {
+    position: relative;
+    text-align: center;
+    color: #F6F0ED;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-txt-img {
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-auto-rows: minmax(90px, auto);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+}
+.top-left-box {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+.top-right-box {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+.bottom-left-box {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    text-align: center;
+}
+.bottom-right-box {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+    text-align: center;
+}
+/*Footer*/
+footer {
+    background-color: green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    float: left;
+}
+footer a {
+    color: blue;
+}
+footer p {
+    font-size: 30px;
+}
+footer img {
+    width: 24%;
+    padding: 10px;
+}
+
+
+
