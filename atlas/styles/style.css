@@ -114,7 +114,7 @@ p {
 }
 /*Footer*/
 footer {
-    background-color: green;
+    background-color: #28536b;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
@@ -124,7 +124,7 @@ footer {
     float: left;
 }
 footer a {
-    color: blue;
+    color: #c2948a;
 }
 footer p {
     font-size: 30px;
